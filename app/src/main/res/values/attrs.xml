@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--declare-styleable 头标签用于规定某个控件的属性的集合
+    name:相当于id 用户在java代码中可通过R.styleable.mycustomSimpleView找到
+    attr：属性重写 name：再布局文件中重写的属性时用到的属性名
+    -->
+    <declare-styleable name="myCustomSimpleView">
+        <attr name="view_backColor" format="color"/>
+    </declare-styleable>
+</resources>
